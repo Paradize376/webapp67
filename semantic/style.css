@@ -1,0 +1,37 @@
+.ul01:hover{
+    text-decoration:underline 2px red;
+}
+.ul02:hover{
+    text-decoration:underline 2px red;
+}
+.ul03:hover{
+    text-decoration:underline 2px red;
+}
+.ul01{
+    float:right;
+    display:flex;
+    list-style-type: none;
+}
+.ul02{
+    float:right;
+    display:flex;
+    list-style-type: none;
+}
+.ul03{
+    float:right;
+    display:flex;
+    list-style-type: none;
+}
+img{
+    border-radius:50%;
+    float: right;
+}
+.gg {
+    color: blueviolet;
+   
+}
+.ft02{
+    float: left;
+   
+   
+}

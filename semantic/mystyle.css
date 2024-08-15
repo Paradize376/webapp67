@@ -1,0 +1,58 @@
+/* Section Styling */
+.sec01 {
+    border: 1px solid salmon;
+}
+
+.sec01 h1 {
+    color: blue;
+}
+
+.sec01 h3 {
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+
+/* Navigation Styling */
+nav {
+    background-color: beige;
+    border: 1px solid blue;
+    color: orangered;
+    height: 150px;
+    display: flex;
+    padding: 0 4rem;
+    align-items: center;
+}
+
+/* Menu List Styling */
+ul.menu {
+    display: flex;
+    color: chocolate;
+}
+
+/* Menu Links Styling */
+ul.menu a {
+    text-decoration: none;
+}
+
+/* Article Styling */
+.atc01 {
+    border: 2px dotted greenyellow; /* Removed the extra 'solid' keyword */
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+    background-image: url('/01.jpg');
+    background-size: cover; /* Ensures the background image covers the entire area */
+}
+
+/* Aside Styling */
+.aside01 {
+    border: 3px solid blue;
+    float: right;
+    background-color: beige;
+    padding: 1rem; /* Added padding for better spacing */
+}
+
+/* Footer Styling */
+.ft01 {
+    margin: 10rem;
+    text-align: center; /* Centering text for better presentation */
+}
