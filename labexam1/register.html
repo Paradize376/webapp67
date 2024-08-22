@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สมัครสมาชิกผู้ใช้งาน</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="container">
+        <h1>สมัครสมาชิกผู้ใช้งาน</h1>
+        <form>
+            <fieldset>
+                <legend>1. ข้อมูลส่วนตัว</legend>
+                <label for="username">ชื่อผู้ใช้:</label>
+                <input type="text" id="username" name="username">
+
+                <label for="lastname">ชื่อ-นามสกุล:</label>
+                <input type="text" id="lastname" name="lastname">
+
+                <label for="phone">เบอร์โทร:</label>
+                <input type="tel" id="phone" name="phone">
+
+                <label for="email">อีเมล์:</label>
+                <input type="email" id="email" name="email">
+
+                <label for="password">รหัสผ่าน:</label>
+                <input type="password" id="password" name="password">
+
+                <label for="confirm-password">ยืนยันรหัสผ่าน:</label>
+                <input type="password" id="confirm-password" name="confirm-password">
+            </fieldset>
+
+            <fieldset>
+                <legend>2. ที่อยู่ปัจจุบัน</legend>
+                <label for="house-number">บ้านเลขที่:</label>
+                <input type="text" id="house-number" name="house-number">
+
+                <label for="province">จังหวัด:</label>
+                <select id="province" name="province">
+                    <option value="">เลือกจังหวัด</option>
+                    <!-- Add options for provinces here -->
+                </select>
+
+                <label for="amphoe">อำเภอ:</label>
+                <select id="amphoe" name="amphoe">
+                    <option value="">เลือกอำเภอ</option>
+                    <!-- Add options for amphoe here -->
+                </select>
+
+                <label for="district">ตำบล:</label>
+                <select id="district" name="district">
+                    <option value="">เลือกตำบล</option>
+                    <!-- Add options for district here -->
+                </select>
+
+                <label for="zipcode">รหัสไปรษณีย์:</label>
+                <input type="text" id="zipcode" name="zipcode">
+
+                <label for="address-details">รายละเอียดที่อยู่:</label>
+                <input type="text" id="address-details" name="address-details">
+            </fieldset>
+
+            <fieldset>
+                <label for="profile-upload">อัพโหลดรูปโปรไฟล์:</label>
+                <input type="file" id="profile-upload" name="profile-upload">
+            </fieldset>
+
+            <div class="buttons">
+                <button type="submit">สมัครสมาชิก</button>
+                <button type="reset">ยกเลิก</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
